@@ -21,7 +21,7 @@ devtools::install_github("hadley/bigrquery")
 library(bigrquery)
 
 # Run query
-prj <- "ace-scarab-713"
+prj <- "---"
 sql <- "SELECT  * FROM [publicdata:samples.wikipedia] LIMIT 1000"
 results <- query_exec(sql , project = prj)
 
